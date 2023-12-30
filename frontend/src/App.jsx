@@ -3,7 +3,7 @@ import axios from "axios";
 import Loader from "./components/Loader";
 import toast from "react-hot-toast";
 import './App.css';
-const API_BASE_URL = "http://localhost:3006/api";
+const API_BASE_URL = "https://json-server-xnev.onrender.com/api";
 import {truncateText} from "./utils/textTruncate";
 const App = () => {
   const [isloading, setisloading] = useState(false);
